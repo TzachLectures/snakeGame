@@ -1,0 +1,19 @@
+/* Base styles to ensure the body takes full viewport height and centers content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: "Arial", sans-serif;
+}
+
+/* Styles for the canvas element */
+canvas {
+  background-color: #fff; /* White background for the canvas */
+  border: 1px solid #000; /* Black border around the canvas */
+  display: block; /* Block display to avoid bottom margin/padding */
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for a subtle depth effect */
+}
